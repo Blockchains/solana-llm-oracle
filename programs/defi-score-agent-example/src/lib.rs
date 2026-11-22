@@ -6,7 +6,7 @@ use solana_llm_oracle::cpi::{
 };
 use solana_llm_oracle::{state::AccountMeta, ChatContext, Config};
 
-declare_id!("3PXKKoDvK8TUF7mmszeXozkaZS7KGbtUEg3dn3r8PTkL");
+declare_id!("ErLzvmX1WuyWHkjBoreZdeGzqNJyaiaitVbSMLphM4gd");
 
 #[program]
 pub mod defi_score_agent_example {

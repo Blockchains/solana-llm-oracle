@@ -1,4 +1,5 @@
 use anchor_lang::prelude::*;
 
 #[constant]
-pub const ORACLE_IDENTITY: Pubkey = pubkey!("oRcjdxYJn7k8ujkMuh3phZGLnuRZ4VF3s3TZt5NEttE");
+// Sol.College lab patch: the oracle identity is the lab deployer (upstream oRcjdxYJ...).
+pub const ORACLE_IDENTITY: Pubkey = pubkey!("BP1uwSaTHXvgN8sPQJgaor6iBoT3KYjnZNnkvJr71zDv");

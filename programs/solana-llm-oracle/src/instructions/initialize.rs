@@ -4,7 +4,8 @@ use crate::Config;
 
 #[derive(Accounts)]
 pub struct Initialize<'info> {
-    #[account(mut, address = pubkey!("grvFMybwWoinrAp39feYxkq3JJQ7NY5oC3X9rNH26x7"))]
+    // Sol.College lab patch: admin is the lab deployer (upstream grvFMyb...).
+    #[account(mut, address = pubkey!("BP1uwSaTHXvgN8sPQJgaor6iBoT3KYjnZNnkvJr71zDv"))]
     pub admin: Signer<'info>,
     #[account(
         init,
